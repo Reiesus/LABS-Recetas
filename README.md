@@ -37,7 +37,7 @@ En cada línea se muestra la siguiente información:.
 • precio estimado: precio por persona.
 ```
 
-## Definición de tipos de 
+## Definición de tipos de datos
 ### Ejercicio 1 
 
 Copie en receta.py los siguientes NamedTuple e importe los tipos y funciones que necesite:
