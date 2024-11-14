@@ -1,6 +1,8 @@
 # Proyecto LAB_Recetas
 Autor: Daniel Mateos
+
 Revisores: Alfonso Bengoa, Toñi Reina
+
 Adaptación para laboratorio:Daniel Mateos, Alfonso Bengoa, Toñi Reina
 
 Este proyecto es una adaptación del primer parcial del curso 2023/24 para trabajar con tratamientos secuenciales, máximos, mínimos y ordenaciones.
@@ -13,9 +15,9 @@ Cree una carpeta **src** para incluir los siguientes módulos Python:
 
 * **recetas.py** en el que implemente las funciones que se indican a continuación.
 
-* **recetas_test.py** en el que incluirá las sentencias necesarias para ir probando las funciones a medida que las implemente. Por cada función implementada debe definir una función de test conn los parámetros adecuaducaos
+* **recetas_test.py** en el que incluirá las sentencias necesarias para ir probando las funciones a medida que las implemente. Por cada función implementada debe definir una función de test con los parámetros adecuados.
 
-Las primeras líneas del fichero se muestran a continuación.
+Las primeras líneas del fichero se muestran a continuación:
 ```
 denominacion;tipo;dificultad;ingredientes;tiempo;Calorias;Fecha creación;precio estimado
 Ensalada de Frutas;Postre;Baja;fresas-5-u,piña-0.25-u,kiwi-1-u,menta-50-cl,zumo naranja-100-cl;15;120;14/01/2024;7,5
@@ -24,8 +26,9 @@ Sopa de Tomate;Entrante;Baja;tomate-3-u,cebolla-1-u,dietes ajo-4-u,caldo de verd
 Gazpacho;Entrante;Baja;;25;120;10/02/2024;6,95
 ```
 
-En cada línea se muestra la siguiente información:. 
-**NOTA**: Observe en el fichero que los ingredientes están compuestos por tres campos y que a alguna receta le faltan los ingredientes**.
+En cada línea se muestra la siguiente información:
+
+**NOTA**: Observe en el fichero que los ingredientes están compuestos por tres campos y que a alguna receta le faltan los ingredientes.
 ```
 • denominacion:  denominacion de la receta.
 • tipo: tipo de receta (Postre, Plato principal etc).
@@ -43,9 +46,9 @@ En cada línea se muestra la siguiente información:.
 Copie en receta.py los siguientes NamedTuple e importe los tipos y funciones que necesite:
 ```
 Ingrediente = NamedTuple("Ingrediente",
-					     [("nombre",str),
-						  ("cantidad",float),
-						  ("unidad",str)])
+					[("nombre",str),
+					 ("cantidad",float),
+					 ("unidad",str)])
 						 
 Receta = NamedTuple("Receta", 
                     [("denominacion", str),
